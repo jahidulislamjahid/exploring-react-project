@@ -1,12 +1,16 @@
 import React from 'react';
-import './Header.css'
+import '../Header/Header.css'
 
-const header = () => {
+const Header = () => {
     return (
-        <div className="header-items">
-            <h2>Top One Hundred Artits Around The World</h2>
+        <div>
+            <div className="header">
+                <h1>Some World Famous Persons</h1>
+                <p>Let's Invite Some Worlds Famous Persons To Our Workshop Here. <br /> Here are some famous persons thourg the whole world. lets se their precious faces below and cordially invite them to our <strong>MOJLISH</strong> </p>
+                <h4>Let's see the <span>Top 20</span> Of Them!</h4>
+            </div>
         </div>
     );
 };
 
-export default header;
+export default Header;
